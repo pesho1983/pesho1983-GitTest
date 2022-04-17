@@ -12,3 +12,10 @@ Scenario: Check contacts form validation messages
 	When I open contacts menu from main page
 	And I send the form without entering information
 	Then I should see validation messages
+	
+@test
+Scenario: Check test git scenario
+	Given I am on Amexis page
+	When I open
+	And I send
+	Then I should see validation messages
